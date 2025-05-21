@@ -1,8 +1,7 @@
-'use client'
-
-import { useEffect } from 'react'
 import './App.css'
+import { useEffect } from 'react'
 import Lenis from 'lenis';
+
 import Header from './components/Header'
 import MuitosP from './components/MuitosP';
 import Inicio from './components/Inicio';
@@ -22,6 +21,7 @@ function App() {
     <>
     <Header />
     <Inicio />
+
     <MuitosP />
     </>
   )
