@@ -1,0 +1,46 @@
+.caixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 10px;
+    transition: all 300ms ease-in-out;
+}
+
+.caixa:hover {
+    transform: translate(-1.2rem,-1.2rem);
+    box-shadow:
+        8px 8px 0px #1e293b,
+        16px 16px 0px #334155;
+}
+
+/* #6366f1 - indigo-500 */
+
+.caixa p {
+    font-size: 2.5vh;
+    font-weight: bold;
+    color: #6366f1;
+    transition: color 0.3s ease-in-out;
+}
+
+.caixa img {
+    width: 6vh;
+    margin-bottom: 1.5vh;
+}
+
+.icon {
+    transition: color 0.3s ease-in-out;
+}
+
+.caixa.html:hover .icon,
+.caixa.html:hover p {
+  color: #ec6231;
+}
+
+.caixa.html:hover {
+  box-shadow:
+    8px 8px 0px #ec6231, 
+    16px 16px 0px rgb(187, 58, 19);
+}

@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 import Header from './components/Header'
 import Inicio from './components/Inicio';
 import SobreMim from './components/SobreMim';
+import Habilidades from './components/Habilidades';
 
 function App() {
   useEffect(() => {
@@ -30,6 +31,7 @@ function App() {
     <Header />
     <Inicio />
     <SobreMim />
+    <Habilidades />
     </>
   )
 }
