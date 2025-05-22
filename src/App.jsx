@@ -3,8 +3,8 @@ import { useEffect } from 'react'
 import Lenis from 'lenis';
 
 import Header from './components/Header'
-import MuitosP from './components/MuitosP';
 import Inicio from './components/Inicio';
+import SobreMim from './components/SobreMim';
 
 function App() {
   // Scroll Suave
@@ -21,8 +21,7 @@ function App() {
     <>
     <Header />
     <Inicio />
-
-    <MuitosP />
+    <SobreMim />
     </>
   )
 }
