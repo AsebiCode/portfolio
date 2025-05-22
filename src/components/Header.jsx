@@ -6,11 +6,12 @@ import {
     IoSendOutline
 } from "react-icons/io5";
 
+import styles from './Header.module.css'
 
 const Header = () => {
   return (
     <>
-    <header className="fixed flex justify-end z-10 top-0 w-full h-[11vh] p-[1.4em] bg-gray-900">
+    <header className={`$[styles] fixed flex justify-end z-10 top-0 w-full h-[11vh] p-[1.4em] bg-gray-900`}>
         <nav className="flex flex-row justify-end">
             <a href=""><IoHomeOutline className="mr-1"/>Início</a>
             <a href=""><IoPersonOutline className="mr-1"/>Sobre</a>
