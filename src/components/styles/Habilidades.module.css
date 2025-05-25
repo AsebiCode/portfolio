@@ -2,9 +2,8 @@
     margin-top: 4vh;
     padding: 4vh;
 }
-
-h2 {
-    font-size: 6vh;
+.titulo {
+    font-size: 10vh;
     font-weight: bold;
     color: #fff;
 }

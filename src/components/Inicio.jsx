@@ -7,7 +7,7 @@ import {
   IoMail
 } from "react-icons/io5";
 
-import styles from './Inicio.module.css'
+import styles from './styles/Inicio.module.css'
 
 const variants = {
   hidden: { opacity: 0, y: 20 },

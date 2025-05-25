@@ -1,0 +1,28 @@
+.caixa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15vh;
+  height: 15vh;
+  margin: 7px;
+  border-radius: 10px;
+  transition: all 300ms ease-in-out;
+}
+.caixa:hover {
+  transform: translate(0rem, -1.2rem);
+}
+.caixa p {
+  font-size: 2.5vh;
+  font-weight: bold;
+  color: #6366f1;
+  transition: color 0.3s ease-in-out;
+}
+.caixa img {
+  width: 6vh;
+  margin-bottom: 1.5vh;
+}
+
+.icon {
+  transition: color 0.3s ease-in-out;
+}/*# sourceMappingURL=CaixaHabilidades.css.map */

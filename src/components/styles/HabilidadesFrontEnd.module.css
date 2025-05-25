@@ -1,0 +1,70 @@
+.caixa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15vh;
+  height: 15vh;
+  margin: 7px;
+  border-radius: 10px;
+  transition: all 300ms ease-in-out;
+}
+.caixa:hover {
+  transform: translate(0rem, -1.2rem);
+}
+.caixa p {
+  font-size: 2.5vh;
+  font-weight: bold;
+  color: #6366f1;
+  transition: color 0.3s ease-in-out;
+}
+.caixa img {
+  width: 6vh;
+  margin-bottom: 1.5vh;
+}
+
+.icon {
+  transition: color 0.3s ease-in-out;
+}
+
+.caixa.html:hover {
+  box-shadow: 0px 8px 0px #ec6231, 0px 16px 0px #d64714;
+}
+.caixa.html:hover .icon, .caixa.html:hover p {
+  color: #ec6231;
+}
+
+.caixa.css:hover {
+  box-shadow: 0px 8px 0px #2965f1, 0px 16px 0px #0e4bd9;
+}
+.caixa.css:hover .icon, .caixa.css:hover p {
+  color: #2965f1;
+}
+
+.caixa.sass:hover {
+  box-shadow: 0px 8px 0px #cc6699, 0px 16px 0px #bf4080;
+}
+.caixa.sass:hover .icon, .caixa.sass:hover p {
+  color: #cc6699;
+}
+
+.caixa.tailwind:hover {
+  box-shadow: 0px 8px 0px #06b6d4, 0px 16px 0px #058ba2;
+}
+.caixa.tailwind:hover .icon, .caixa.tailwind:hover p {
+  color: #06b6d4;
+}
+
+.caixa.js:hover {
+  box-shadow: 0px 8px 0px #f0db4f, 0px 16px 0px #dfc513;
+}
+.caixa.js:hover .icon, .caixa.js:hover p {
+  color: #f0db4f;
+}
+
+.caixa.react:hover {
+  box-shadow: 0px 8px 0px #61dbdb, 0px 16px 0px #28aeae;
+}
+.caixa.react:hover .icon, .caixa.react:hover p {
+  color: #61dbdb;
+}/*# sourceMappingURL=HabilidadesFrontEnd.module.css.map */

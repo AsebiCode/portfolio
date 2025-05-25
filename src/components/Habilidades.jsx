@@ -1,18 +1,33 @@
-import styles from './Habilidades.module.css'
+import styles from './styles/Habilidades.module.css'
 import IconesFrontEnd from './HabilidadesFrontEnd.jsx'
+import IconesBackEnd from './HabilidadesBackEnd.jsx'
 
 const Habilidades = () => {
   return (
     <>
     <section className="flex flex-col justify-center items-center min-h-screen pt-20 bg-indigo-500">
-        <h1 className="text-[6.5vh] text-white font-extrabold">Habilidades</h1>
-        <section className={`${styles.habilidades} flex flex-row justify-around items-center w-[90%]`}>
-            <h2>Front-End</h2>
-            <IconesFrontEnd/>
-        </section>
-        <section className={`${styles.habilidades} bg-gray-900 w-[90%]`}>
-            <h2>Back-End</h2>
-        </section>
+      <h1 className="text-[8vh] text-white font-extrabold mb-10">Habilidades</h1>
+
+      <section className="grid grid-cols-3 justify-items-center gap-8 w-[90%] mb-10">
+        <div className="col-span-1 text-white text-center">
+          <h2 className="text-[4vh] font-bold mb-2">Front-End</h2>
+          <div className='grid grid-cols-2'>
+            <IconesFrontEnd />
+          </div>
+        </div>
+
+        <div className="col-span-1 text-white text-center">
+          <h2 className="text-[4vh] font-bold mb-2">Back-End</h2>
+          <div className='grid grid-cols-2'>
+            <IconesBackEnd />
+          </div>
+        </div>
+
+        <div className="col-span-1 text-white">
+          <h2 className="text-[4vh] font-bold mb-2 text-center">Outras</h2>
+          {/* <IconesOutros /> */}
+        </div>
+      </section>
     </section>
     </>
   )

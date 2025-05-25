@@ -6,7 +6,7 @@ import {
     IoSendOutline
 } from "react-icons/io5";
 
-import styles from './Header.module.css'
+import styles from './styles/Header.module.css'
 
 const Header = () => {
   return (
